@@ -7,7 +7,6 @@
 <br/>
 
 <a href="https://github.com/Samir-frontend/TaskFlow-PWA">
-<img src="https://img.shields.io/badge/📂%20GitHub%20Repository-22C55E?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <br/><br/>
@@ -215,31 +214,13 @@ npm install
 npm run dev
 ```
 
----
-
-# 📸 Screenshots
-
-> Add screenshots here after uploading them.
-
-```text
-📷 Dashboard
-
-📷 Task Management
-
-📷 Calendar
-
-📷 Analytics
-
-📷 Mobile View
-```
 
 ---
 
-# ⭐ GitHub Repository
+# ⭐ Live Demo
 
-**Repository**
 
-https://github.com/Samir-frontend/TaskFlow-PWA
+https://samir-frontend.github.io/TaskFlow-PWA/
 
 ---
 
