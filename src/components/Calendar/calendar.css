@@ -1,0 +1,45 @@
+.calendar-card{
+
+margin-top:40px;
+
+padding:30px;
+
+background:var(--card);
+
+border-radius:20px;
+
+box-shadow:var(--shadow);
+
+}
+
+.rbc-calendar{
+
+background:white;
+
+border-radius:15px;
+
+padding:10px;
+
+}
+
+.rbc-toolbar{
+
+margin-bottom:20px;
+
+}
+
+.rbc-event{
+
+background:#0f766e !important;
+
+border:none !important;
+
+border-radius:8px !important;
+
+}
+
+.rbc-today{
+
+background:#d1fae5 !important;
+
+}
