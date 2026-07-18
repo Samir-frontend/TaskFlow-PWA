@@ -7,7 +7,7 @@
 <br/>
 
 <a href="https://github.com/Samir-frontend/TaskFlow-PWA">
- <img src="https://img.shields.io/badge/🚀%20Open%20TaskFlow%20PWA-16a34a?style=for-the-badge" alt="Open TaskFlow PWA">
+ <img src="https://samir-frontend.github.io/TaskFlow-PWA/" alt="Open TaskFlow PWA">
 </a>
 
 <br/><br/>
