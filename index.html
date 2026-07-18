@@ -2,15 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="manifest" href="/manifest.json" />
-    <meta name="theme-color" content="#2563eb" />
-    <link rel="icon" href="/icons/192.png" />
-    <title>taskflow-pwa</title>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>TaskFlow PWA</title>
+
+    <meta
+      name="description"
+      content="Task Management Progressive Web App"
+    />
+
+    <meta
+      name="theme-color"
+      content="#16a34a"
+    />
+
+    <!-- PWA Manifest -->
+    <link
+      rel="manifest"
+      href="./manifest.webmanifest"
+    />
+
+    <!-- App Icon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./icons/icon-192.png"
+    />
   </head>
+
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+
+    <script
+      type="module"
+      src="/src/main.jsx"
+    ></script>
   </body>
 </html>
