@@ -6,17 +6,24 @@ export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
   const [darkMode, setDarkMode] = useState(() => {
-    return JSON.parse(localStorage.getItem("theme")) || false;
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === null) return false;
+
+    try {
+      return JSON.parse(savedTheme);
+    } catch {
+      return savedTheme === "dark";
+    }
   });
 
   useEffect(() => {
     localStorage.setItem("theme", JSON.stringify(darkMode));
 
-    if (darkMode) {
-      document.documentElement.setAttribute("data-theme", "dark");
-    } else {
-      document.documentElement.setAttribute("data-theme", "light");
-    }
+    document.documentElement.setAttribute(
+      "data-theme",
+      darkMode ? "dark" : "light"
+    );
   }, [darkMode]);
 
   const toggleTheme = () => {
