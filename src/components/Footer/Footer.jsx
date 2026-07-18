@@ -75,7 +75,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="https://github.com/"
+          href="https://github.com/Samir-frontend"
           target="_blank"
           rel="noreferrer"
         >
