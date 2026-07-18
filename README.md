@@ -6,8 +6,8 @@
 
 <br/>
 
-<a href="https://github.com/Samir-frontend/TaskFlow-PWA">
- <img src="https://samir-frontend.github.io/TaskFlow-PWA/" alt="Open TaskFlow PWA">
+<a href="https://samir-frontend.github.io/TaskFlow-PWA/" target="_blank">
+  🚀 Open TaskFlow PWA
 </a>
 
 <br/><br/>
